@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.innerwrapper{
+    text-align: right;
+    padding: 20px;
+    margin-right: 150px;
+    margin-left: 700px;
+    margin-top: 0%;
+    border: solid darkblue 2px;
+    
+}
+
+h3{
+    font-family: cursive;
+    text-decoration: underline;
+    padding: 30px;
+    background-color:skyblue;
+}
+
+input{
+    border-radius: 40px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid darkblue;
+    outline: none;
+    -webkit-appearance: none;
+    margin-right: 30px;
+   
+}
+
+input::-webkit-color-swatch-wrapper {
+    padding: 0; 
+}
+
+input::-webkit-color-swatch {
+    border: none;
+    border-radius: 40px;
+}
+
+select{
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background: black;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+}
+option{
+    background: skyblue;
+    border: none;
+    color: darkblue;
+} 
+
+.gradient{
+    background: linear-gradient(45deg,skyblue,black , yellow);
+    width: 250px;
+    height: 320px;
+    border-radius: 25px;
+    float: left;
+    box-shadow: 2px 31px 35px -15px rgba(0,0,0,0.70);
+    margin: 30px;
+    padding: 10px;
+}

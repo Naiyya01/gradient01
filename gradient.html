@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADIENT</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h1>CREATE YOUR OWN GRADIENT</h1>
+    <div class="wrapper">
+        <div class="gradient" id="gradient"></div>
+        <div class="innerwrapper">
+            <h3>PICK YOUR COLOURS</h3>
+            <input type="color" name="color1" id="color1">
+            <input type="color" name="color2" id="color2">
+            <input type="color" name="color3" id="color3">
+            <h3>PICK YOUR GRADIENT-TYPE</h3>
+            <div class="typegrad" >
+            <select name="Lgrad-type" id="Lgrad-type">
+                <option value="#">linear grad-type</option>
+                <option value="top to bottom">Top to bottom</option>
+                <option value="left to right">left to right</option>
+                <option value="Diagonal">Diagonal</option>
+                <option value="45 deg">45 deg</option>
+                <option value="180 deg">180 deg</option>
+            </select>
+            <select name="Rgrad-type" id="Rgrad-type">
+                <option value="#">radial grad-type</option>
+            </select>
+            </div>
+            <h3></h3>
+        </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
